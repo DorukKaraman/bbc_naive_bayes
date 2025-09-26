@@ -21,10 +21,11 @@ The model is trained and evaluated on the [BBC Sports dataset](http://mlg.ucd.ie
 
 ## 📂 Dataset
 The dataset should be placed under `dataset/` directory:
+```
 dataset/
 ├── bbcsports_train.csv
 ├── bbcsports_val.csv
-
+```
 - Each row represents a document.
 - Columns are word counts (bag-of-words features).
 - The **last column is the class label** (0–4).
